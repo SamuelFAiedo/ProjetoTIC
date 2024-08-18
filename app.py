@@ -47,10 +47,24 @@ def opcao_invalida():
 def adicionar_produto():
    subtitulo("Digite um nome para o produto") #Deve exibir nome, unidade de medida, quantidade e descrição do produto.
    nomeprod = input("Digite o nome do produto:")
+   tipodeMedida = input("Digite o tipo de unidade de medida do produto:")
+   quantidade = input("Digite a quantidade:")
+   descrição = input("Digite a descrição do produto:") #Futuramente permitir que o usuário não queira adicionar descrição.
+   #Fazer dicionário do produto com compreensão de lista
+   #adicionar a função voltar()
 
+def remover_produto():
+   subtitulo("Selecione o produto que deseja remover:")
+   input("Digite o nome do produto:")
+   #código para a remoção do produto.
+
+def pesquisar_produtos():
+   input("Digite o nome do produto:")
+   #adicionar o código para a pesquisa.
 def main():
    os.system('cls')
    opcoes()
    escolher_opcoes()
+   
 if __name__== '__main__':
     main()
