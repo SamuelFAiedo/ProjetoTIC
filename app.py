@@ -46,7 +46,7 @@ def opcao_invalida():
 
 def adicionar_produto():
    subtitulo("Digite um nome para o produto") #Deve exibir nome, unidade de medida, quantidade e descrição do produto.
-
+   nomeprod = input("Digite o nome do produto:")
 
 def main():
    os.system('cls')
