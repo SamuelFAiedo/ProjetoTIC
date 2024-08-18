@@ -17,7 +17,7 @@ def opcoes():
    print("4. Sair do programa:")
 
 def escolher_opcoes():
-   opcao_escolhida = input(int("Escolha uma opcão:"))
+   opcao_escolhida = int(input("Escolha uma opcão:"))
    try:
       if opcao_escolhida == 1:
          adicionar_produto()
@@ -61,10 +61,11 @@ def remover_produto():
 def pesquisar_produtos():
    input("Digite o nome do produto:")
    #adicionar o código para a pesquisa.
+
 def main():
    os.system('cls')
    opcoes()
    escolher_opcoes()
-   
+
 if __name__== '__main__':
     main()
