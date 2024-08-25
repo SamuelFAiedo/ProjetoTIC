@@ -49,9 +49,9 @@ def adicionar_produto():
    nomeprod = input("Digite o nome do produto:")
    tipodeMedida = input("Digite o tipo de unidade de medida do produto:")
    quantidade = input("Digite a quantidade:")
-   descrição = input("Digite a descrição do produto:") #Futuramente permitir que o usuário não queira adicionar descrição.
+   descrição = input("Digite a descrição do produto: Caso não queira apenas aperte Enter")
    #Fazer dicionário do produto com compreensão de lista
-   #adicionar a função voltar()
+   voltar()
 
 def remover_produto():
    subtitulo("Selecione o produto que deseja remover:")
