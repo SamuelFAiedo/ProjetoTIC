@@ -1,5 +1,6 @@
 #Lista de Compras
 import os
+import pandas as pd
 
 def subtitulo(texto):
    os.system('cls')
@@ -50,6 +51,9 @@ def adicionar_produto():
    tipodeMedida = input("Digite o tipo de unidade de medida do produto:")
    quantidade = input("Digite a quantidade:")
    descrição = input("Digite a descrição do produto: Caso não queira apenas aperte Enter")
+   #retornar o produto adicionado para a lista de produtos, se possível em um dataset.
+
+   return 
    #Fazer dicionário do produto com compreensão de lista
    voltar()
 
